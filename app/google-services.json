@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "818668120892",
-    "project_id": "vj20242-cdb49",
-    "storage_bucket": "vj20242-cdb49.appspot.com"
+    "project_number": "377423878645",
+    "firebase_url": "https://prueba1-4fcc8-default-rtdb.firebaseio.com",
+    "project_id": "prueba1-4fcc8",
+    "storage_bucket": "prueba1-4fcc8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:818668120892:android:0d1642b1e2817ad0d00c39",
+        "mobilesdk_app_id": "1:377423878645:android:ace10a6461cb004734a8bc",
         "android_client_info": {
           "package_name": "com.upn.contactsapp"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDj8JzpiwB9o3VQhVEEF3-JXl976x_5320"
+          "current_key": "AIzaSyCHfKMlka9Zvx0X1HILeGvjxuGCF3aTUvY"
         }
       ],
       "services": {

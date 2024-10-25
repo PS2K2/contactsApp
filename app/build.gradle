@@ -34,25 +34,31 @@ android {
 }
 
 dependencies {
-
+    // Dependencias de la interfaz de usuario
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.google.android.material:material:1.9.0'  // Actualizado
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Google Maps SDK
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
+
+    // Pruebas
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+    // Retrofit (conversión JSON)
     implementation 'com.squareup.retrofit2:retrofit:2.11.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.11.0'
 
+    // Dropbox SDK
     implementation 'com.dropbox.core:dropbox-core-sdk:5.4.0'
 
+    // Room (Base de datos)
     implementation "androidx.room:room-runtime:2.5.1"
-    annotationProcessor "androidx.room:room-compiler:2.5.1"
+    annotationProcessor "androidx.room:room-compiler:2.5.1"  // Usa el annotationProcessor o kapt si es Kotlin
 
+    // Firebase
     implementation platform('com.google.firebase:firebase-bom:33.4.0')
-    implementation("com.google.firebase:firebase-database")
-
-
+    implementation "com.google.firebase:firebase-database"
 }
